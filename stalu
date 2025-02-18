@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="stalu.css">
+</head>
+<body>
+    <header>
+        <div class="stalu.jpg">
+            <h1>Sta. Lucia High School</h1>
+        </div>
+        <div class="logo-image">
+            <img src="stalu.jpg" alt="School Logo" width="50" height="50"> <!-- Replace with your logo image -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section id="home" class="banner">
+        <h2>Welcome to Sta. Lucia High School</h2>
+        <p>Your path to academic excellence!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Sta. Lucia High School, located in Pasig City, Metro Manila, Philippines, was established on June 19, 1994, through Republic Act 7767. The school began operations on June 1, 1998, with an initial enrollment of 1,086 students and a teaching staff of 34. Over the years, it has expanded significantly, currently serving approximately 3,989 students with a faculty of 115 teachers and 19 non-teaching staff.
+            The school's mission is to provide holistic learning opportunities that develop students' literacy and functional life skills. It aims to achieve this by offering comprehensive educational programs, fostering professional development among teachers, and collaborating with parents and the community to enhance school improvement.
+            The school's facilities include multiple classroom buildings, such as the BCE Building, VPE Building, DepEd Building, and RTR Building. These facilities support a technology-assisted learning environment aimed at providing quality education to its students.
+        </p>
+        <section id="Our Principal">
+            <h2>Our Principal</h2>
+            <p>Dr. Lorna Rodriguez, the principal of Sta. Lucia High School, is a dedicated leader who plays a pivotal role in shaping the school’s vision and mission. Under her guidance, the school has seen continuous improvements in both academic and extracurricular offerings, ensuring that students are well-prepared for the challenges ahead. She prioritizes the development of a nurturing, disciplined, and inclusive learning environment, focusing not only on academic excellence but also on the emotional and moral growth of the students. Dr. Rodriguez actively collaborates with faculty, staff, and parents to create a supportive community that encourages lifelong learning and values-based education.</p>
+    </section>
+    <div class="principal.avif">
+        <img src="principal.avif" alt="School Logo" width="500" height="200"> <!-- Replace with your logo image -->
+    </div>
+    <section id="Assistant Principal">
+        <h2>Assistant Principal</h2>
+        <p>Lysette G. Caruz is the Assistant Principal at Sta. Lucia High School. In her role, she plays a crucial part in supporting the school’s leadership team by managing various aspects of school operations and administration. This includes overseeing the academic programs, assisting with student discipline, helping facilitate communication between faculty, staff, students, and parents, and ensuring that the school environment is conducive to learning.
+
+            As an Assistant Principal, Ma’am Lysette Caruz is involved in helping implement the school’s vision, enhancing the quality of education, and supporting both the students and the teaching staff. She likely plays a key role in fostering a positive and efficient school culture that values both academic achievement and personal development.
+            
+            Her leadership helps maintain a structured and productive environment, contributing significantly to the success and growth of Sta. Lucia High School.</p>
+            <div class="assistant.avif">
+                <img src="assistant.avif" alt="School Logo" width="500" height="300"> <!-- Replace with your logo image -->
+            </div>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to contact us!</p>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 XYZ School | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
